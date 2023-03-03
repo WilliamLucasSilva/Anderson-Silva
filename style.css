@@ -1,4 +1,3 @@
-
 body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -16,7 +15,8 @@ nav ul{
 
 nav li{
   display: inline-block; 
-  padding-right: 20%;  
+  padding-left: 0%; 
+  margin: 0; 
 }
 
 nav a{
@@ -26,10 +26,14 @@ font-size:110%;
  list-style-type: none;
  color:#ffffff;
  display: inline-block;
- padding-left: 0%;
- padding:8%;
+ padding-left: 10%;
+
 }
 .Sobre{
+  padding:20px
+}
+
+#sobre{
   padding:20px
 }
 
@@ -45,5 +49,3 @@ nav p{
   padding-left: 60%;
   font-size:110%
 }
-
-
