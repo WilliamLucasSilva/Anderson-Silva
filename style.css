@@ -1,43 +1,41 @@
+
+
+
 body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav{
 background-color: #000000;
-margin: 0;
+margin: auto;
+height:50px
 }
 
-nav ul{
+#ulp{
   display:inline-flex;
   padding-left: 0%; 
   margin: 0;
 }
 
-nav li{
+#lip{
   display: inline-block; 
   padding-left: 0%; 
   margin: 0; 
 }
 
-nav a{
+#ap{
 text-decoration:none;
 color:inherit;
 font-size:110%;
  list-style-type: none;
  color:#ffffff;
- display: inline-block;
- padding-left: 10%;
+ display:block;
+ padding-left: 40%;
+ 
 
 }
-.Sobre{
-  padding:20px
-}
 
-#sobre{
-  padding:20px
-}
-
-a:hover {
+#ap:hover {
   background-color: #ffffff;
   color: #000000;
   transition:2.5s;
@@ -49,3 +47,56 @@ nav p{
   padding-left: 60%;
   font-size:110%
 }
+
+ul ul {
+  display:none;
+}
+
+ul li:hover > ul {
+  display:block;    
+}
+
+.ul-not{
+  background-color: #000000
+}
+
+.lis{
+  padding: 7px 10px; 
+}
+
+.as{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.lis .as:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition:2.5s;
+}
+
+article{
+
+}
+
+h1{
+  font-size:70px;
+
+  
+}
+
+h2{
+
+  width:500px;
+}
+
+.pa{
+
+  width:500px;
+}
+
+.imaa{
+  width: 180px;
+
+}
+
