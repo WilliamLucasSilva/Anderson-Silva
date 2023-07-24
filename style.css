@@ -1,102 +1,90 @@
-
-
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 body{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(136,222,176);
+    background: linear-gradient(204deg, rgba(136,222,176,1) 0%, rgba(55,122,152,1) 35%, rgba(20,9,81,1) 100%);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 
-nav{
-background-color: #000000;
-margin: auto;
-height:50px
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
-#ulp{
-  display:inline-flex;
-  padding-left: 0%; 
-  margin: 0;
+header > nav{
+    margin: 10px 20px 0px 20px;
 }
 
-#lip{
-  display: inline-block; 
-  padding-left: 0%; 
-  margin: 0; 
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
 }
 
-#ap{
-text-decoration:none;
-color:inherit;
-font-size:110%;
- list-style-type: none;
- color:#ffffff;
- display:block;
- padding-left: 40%;
- 
-
+nav > button{
+    padding: 10px;
+    background-color: #C8FBF2;
+    margin: 5px 10px 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-#ap:hover {
-  background-color: #ffffff;
-  color: #000000;
-  transition:2.5s;
+nav > button:hover{
+    padding: 15px;
+    margin: -5px 10px -5px 5px;
 }
 
-nav p{
-  color:#ffffff;
-  display:inline-flex;
-  padding-left: 60%;
-  font-size:110%
-}
-
-ul ul {
-  display:none;
-}
-
-ul li:hover > ul {
-  display:block;    
-}
-
-.ul-not{
-  background-color: #000000
-}
-
-.lis{
-  padding: 7px 10px; 
-}
-
-.as{
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.lis .as:hover {
-  background-color: #ffffff;
-  color: #000000;
-  transition:2.5s;
-}
-
-article{
-
+#botao_logar:hover{
+    margin: -5px 10px -5px 0px;
 }
 
 h1{
-  font-size:70px;
+    font-size: 150px;
+    color: #152069;
+    margin: 50px;
+}
 
-  
+h1 > span{
+    display: block;
+}
+
+#alison{
+    margin-left: 50px;
+}
+
+#filosofia{
+    margin-left: 250px;
 }
 
 h2{
-
-  width:500px;
+    color: #69C6AF;
+    width: 300px;
+    margin: 50px;
+    font-size: 30px;
 }
 
-.pa{
-
-  width:500px;
+#separacao_cursos1{
+    margin-left: 20%;
 }
 
-.imaa{
-  width: 180px;
-
+#separacao_cursos2{
+    margin-left: 12%;
 }
 
+.cursos{
+    background-color: white;
+    width: 25%;
+    height: 30vw;
+    display: inline-block;
+    margin: 20px;
+}
